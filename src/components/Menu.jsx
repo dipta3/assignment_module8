@@ -3,6 +3,11 @@ import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
     const menuItems = <>
+        <ul>
+            <li><NavLink to='/'>Home</NavLink></li>
+            <li><NavLink to='/income'>Income</NavLink></li>
+            <li><NavLink to='/expense'>Expense</NavLink></li>
+        </ul>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/income'>Income</NavLink></li>
         <li><NavLink to='/expense'>Expense</NavLink></li>
